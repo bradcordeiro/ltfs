@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<title>search_index.js - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="../../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/darkfish.js"></script>
+
+
+<body class="file">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../../index.html">Home</a>
+    <a href="../../table_of_contents.html#classes">Classes</a>
+    <a href="../../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="../../Gemfile.html">Gemfile</a>
+  
+    <li class="file"><a href="../../LICENSE_txt.html">LICENSE</a>
+  
+    <li class="file"><a href="../../README_md.html">README</a>
+  
+    <li class="file"><a href="../../doc/Gemfile_html.html">Gemfile.html</a>
+  
+    <li class="file"><a href="../../doc/LICENSE_txt_html.html">LICENSE_txt.html</a>
+  
+    <li class="file"><a href="../../doc/LTFS_html.html">LTFS.html</a>
+  
+    <li class="file"><a href="../../doc/LTFS/LTFSExtentInfo_html.html">LTFSExtentInfo.html</a>
+  
+    <li class="file"><a href="../../doc/LTFS/LTFSFile_html.html">LTFSFile.html</a>
+  
+    <li class="file"><a href="../../doc/LTFS/LTFSIndex_html.html">LTFSIndex.html</a>
+  
+    <li class="file"><a href="../../doc/LTFS/LTFSTape_html.html">LTFSTape.html</a>
+  
+    <li class="file"><a href="../../doc/README_md_html.html">README_md.html</a>
+  
+    <li class="file"><a href="../../doc/created_rid.html">created.rid</a>
+  
+    <li class="file"><a href="../../doc/doc/Gemfile_html_html.html">Gemfile_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/LICENSE_txt_html_html.html">LICENSE_txt_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/LTFS/LTFSExtentInfo_html_html.html">LTFSExtentInfo_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/LTFS/LTFSFile_html_html.html">LTFSFile_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/LTFS/LTFSIndex_html_html.html">LTFSIndex_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/LTFS/LTFSTape_html_html.html">LTFSTape_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/LTFS_html_html.html">LTFS_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/README_md_html_html.html">README_md_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/created_rid_html.html">created_rid.html</a>
+  
+    <li class="file"><a href="../../doc/doc/doc/created_rid_html_html.html">created_rid_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/index_html_html.html">index_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/js/darkfish_js_html.html">darkfish_js.html</a>
+  
+    <li class="file"><a href="../../doc/doc/js/jquery_js_html.html">jquery_js.html</a>
+  
+    <li class="file"><a href="../../doc/doc/js/navigation_js_html.html">navigation_js.html</a>
+  
+    <li class="file"><a href="../../doc/doc/js/search_index_js_html.html">search_index_js.html</a>
+  
+    <li class="file"><a href="../../doc/doc/js/search_js_html.html">search_js.html</a>
+  
+    <li class="file"><a href="../../doc/doc/js/searcher_js_html.html">searcher_js.html</a>
+  
+    <li class="file"><a href="../../doc/doc/ltfs_gemspec_html_html.html">ltfs_gemspec_html.html</a>
+  
+    <li class="file"><a href="../../doc/doc/rdoc_css_html.html">rdoc_css.html</a>
+  
+    <li class="file"><a href="../../doc/doc/table_of_contents_html_html.html">table_of_contents_html.html</a>
+  
+    <li class="file"><a href="../../doc/index_html.html">index.html</a>
+  
+    <li class="file"><a href="../../doc/js/darkfish_js.html">darkfish.js</a>
+  
+    <li class="file"><a href="../../doc/js/jquery_js.html">jquery.js</a>
+  
+    <li class="file"><a href="../../doc/js/navigation_js.html">navigation.js</a>
+  
+    <li class="file"><a href="../../doc/js/search_js.html">search.js</a>
+  
+    <li class="file"><a href="../../doc/js/search_index_js.html">search_index.js</a>
+  
+    <li class="file"><a href="../../doc/js/searcher_js.html">searcher.js</a>
+  
+    <li class="file"><a href="../../doc/ltfs_gemspec_html.html">ltfs_gemspec.html</a>
+  
+    <li class="file"><a href="../../doc/rdoc_css.html">rdoc.css</a>
+  
+    <li class="file"><a href="../../doc/table_of_contents_html.html">table_of_contents.html</a>
+  
+    <li class="file"><a href="../../ltfs_gemspec.html">ltfs.gemspec</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../LTFS.html">LTFS</a>
+  
+    <li><a href="../../LTFS/LTFSExtentInfo.html">LTFS::LTFSExtentInfo</a>
+  
+    <li><a href="../../LTFS/LTFSFile.html">LTFS::LTFSFile</a>
+  
+    <li><a href="../../LTFS/LTFSIndex.html">LTFS::LTFSIndex</a>
+  
+    <li><a href="../../LTFS/LTFSTape.html">LTFS::LTFSTape</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation" class="description">
+  
+<p>var search_data = {“index”:{“<a
+href="http://"ltfs","ltfsextentinfo","ltfsfile","ltfsindex","ltfstape","bytecount()","byteoffset()","fileoffset()","files()","new()","new()","new()","new()","partition()","startblock()","gemfile","license","readme","gemfile.html","license_txt.html","ltfs.html","ltfsextentinfo.html","ltfsfile.html","ltfsindex.html","ltfstape.html","readme_md.html","created.rid","created_rid.html","index.html","darkfish.js","jquery.js","navigation.js","search.js","search_index.js","searcher.js","ltfs_gemspec.html","rdoc.css","table_of_contents.html","ltfs.gemspec"">searchIndex”:</a>,“<a
+href=""ltfs","ltfs::ltfsextentinfo","ltfs::ltfsfile","ltfs::ltfsindex","ltfs::ltfstape","ltfs::ltfsfile#bytecount()","ltfs::ltfsfile#byteoffset()","ltfs::ltfsfile#fileoffset()","ltfs::ltfsindex#files()","ltfs::ltfsextentinfo::new()","ltfs::ltfsfile::new()","ltfs::ltfsindex::new()","ltfs::ltfstape::new()","ltfs::ltfsfile#partition()","ltfs::ltfsfile#startblock()","","","","","","","","","","","","","","","","","","","","","","","",""">longSearchIndex”:</a>,“info”:[[“LTFS”,“”,“LTFS.html”,“”,“&lt;p&gt;All
+classes are wrapped the the &amp;#39;LTFS&amp;#39;
+modulen”],[“LTFS::LTFSExtentInfo”,“”,“LTFS/LTFSExtentInfo.html”,“”,“&lt;p&gt;Poor
+tape-writing practice causes large variations in Extent informationnabout
+an LTFSFile, so this part
+…n”],[“LTFS::LTFSFile”,“”,“LTFS/LTFSFile.html”,“”,“&lt;p&gt;Represents a
+file in an <a href="../../LTFS.html">LTFS</a>
+scheman”],[“LTFS::LTFSIndex”,“”,“LTFS/LTFSIndex.html”,“”,“&lt;p&gt;This
+class represents the entire <a href="../../LTFS.html">LTFS</a> index
+schema, and is used tonlogically group the metadata about
+…n”],[“LTFS::LTFSTape”,“”,“LTFS/LTFSTape.html”,“”,“&lt;p&gt;Represents
+information about a tape&amp;#39;s <a
+href=""bytecount","LTFS::LTFSFile","LTFS/LTFSFile.html#method-i-bytecount","()",""">filesystemn”],</a>,[“<a
+href=""fileoffset","LTFS::LTFSFile","LTFS/LTFSFile.html#method-i-fileoffset","()",""">byteoffset”,“LTFS::LTFSFile”,“LTFS/LTFSFile.html#method-i-byteoffset”,“()”,“”],</a>,[“files”,“LTFS::LTFSIndex”,“LTFS/LTFSIndex.html#method-i-files”,“()”,“&lt;p&gt;Returns
+an array of file metadata. Each file&amp;#39;s metadata is stored in a nan
+LTFSFile ojbect, also …<a
+href=”“new”,“LTFS::LTFSExtentInfo”,“LTFS/LTFSExtentInfo.html#method-c-new”,“(extentinfo)”,“”“>n”],</a>,[“new”,“LTFS::LTFSFile”,“LTFS/LTFSFile.html#method-c-new”,“(input,
+volumeuuid, <a
+href=""new","LTFS::LTFSIndex","LTFS/LTFSIndex.html#method-c-new","(file)",""">pathname)”,“”],</a>,[“<a
+href=""partition","LTFS::LTFSFile","LTFS/LTFSFile.html#method-i-partition","()",""">new”,“LTFS::LTFSTape”,“LTFS/LTFSTape.html#method-c-new”,“(input)”,“”],</a>,[“startblock”,“LTFS::LTFSFile”,“LTFS/LTFSFile.html#method-i-startblock”,“()”,“”],[“Gemfile”,“”,“Gemfile.html”,“”,“&lt;p&gt;source
+&amp;#39;rubygems.org&amp;#39;n&lt;p&gt;gem
+&amp;#39;xml-simple&amp;#39;n”],[“LICENSE”,“”,“LICENSE_txt.html”,“”,“&lt;p&gt;The
+MIT License (MIT)n&lt;p&gt;Copyright © 2016
+bradcordeiron&lt;p&gt;Permission is hereby granted, free of charge, to
+…n”],[“README”,“”,“README_md.html”,“”,“&lt;p&gt;LTFSn&lt;p&gt;A Ruby gem to
+help parse <a href="../../LTFS.html">LTFS</a> index schema
+files.n&lt;p&gt;Requirementsn”],[“Gemfile.html”,“”,“doc/Gemfile_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“LICENSE_txt.html”,“”,“doc/LICENSE_txt_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“LTFS.html”,“”,“doc/LTFS_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“LTFSExtentInfo.html”,“”,“doc/LTFS/LTFSExtentInfo_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“LTFSFile.html”,“”,“doc/LTFS/LTFSFile_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“LTFSIndex.html”,“”,“doc/LTFS/LTFSIndex_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“LTFSTape.html”,“”,“doc/LTFS/LTFSTape_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“README_md.html”,“”,“doc/README_md_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“created.rid”,“”,“doc/created_rid.html”,“”,“&lt;p&gt;Wed, 07 Jun 2017
+12:58:27 -0700 ./doc/created.rid       Wed, 07 Jun 2017n12:58:27 -0700
+./Gemfile   
+…n”],[“created_rid.html”,“”,“doc/doc/created_rid_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“index.html”,“”,“doc/index_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“darkfish.js”,“”,“doc/js/darkfish_js.html”,“”,“n&lt;pre&gt;Darkfish
+Page Functionsn$Id: darkfish.js 53 2009-01-07 02:52:03Z deveiant $nnAuthor:
+Michael Granger
+…&lt;/pre&gt;n”],[“jquery.js”,“”,“doc/js/jquery_js.html”,“”,“n&lt;pre&gt;!
+jQuery v1.6.4 <a href="http://jquery.com">jquery.com</a>/ | <a
+href="http://jquery.org/license</pre>n<p>(function(a,b){function”>jquery.org/license</pre>n<p>(function(a,b){function</a>
+cu(a){return f.isWindow
+…n“],[”navigation.js“,”“,”doc/js/navigation_js.html“,”“,”n&lt;pre&gt;Navigation
+allows movement using the arrow keys through the search results.nnWhen
+using this library
+…&lt;/pre&gt;n“],[”search.js“,”“,”doc/js/search_js.html“,”“,”&lt;p&gt;Search
+= function(data, input, result) {nn&lt;pre&gt;this.data = data;nthis.$input
+= $(input);nthis.$result = $(result);
+…&lt;/pre&gt;n“],[”search_index.js“,”“,”doc/js/search_index_js.html“,”“,”&lt;p&gt;var
+search_data =n{“index”:{“<a
+href="“LTFS::LTFSExtentInfo”,“”,“LTFS/LTFSExtentInfo.html”,“”,“&lt;p&gt;Poor\n…\n"">searchIndex”:,“longSearchIndex”:,“info”:[,</a>,[“searcher.js”,“”,“doc/js/searcher_js.html”,“”,“&lt;p&gt;Searcher
+= function(data) {nn&lt;pre&gt;this.data = data;nthis.handlers =
+[];&lt;/pre&gt;n&lt;p&gt;}n”],[“ltfs_gemspec.html”,“”,“doc/ltfs_gemspec_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“rdoc.css”,“”,“doc/rdoc_css.html”,“”,“n&lt;pre&gt;&amp;quot;Darkfish&amp;quot;
+Rdoc CSSn$Id: rdoc.css 54 2009-01-27 01:09:48Z deveiant $nnAuthor: Michael
+Granger &amp;lt;ged@FaerieMUD.org&amp;gt;
+…&lt;/pre&gt;n”],[“table_of_contents.html”,“”,“doc/table_of_contents_html.html”,“”,“&lt;p&gt;&amp;lt;!DOCTYPE
+html&amp;gt;n&lt;p&gt;&amp;lt;html&amp;gt; &amp;lt;head&amp;gt;
+&amp;lt;meta content=“text/html; charset=UTF-8”
+…n”],[“ltfs.gemspec”,“”,“ltfs_gemspec.html”,“”,“&lt;p&gt;lib =
+File.expand_path(&amp;#39;../lib&amp;#39;, __FILE__)
+$LOAD_PATH.unshift(lib)nunless $LOAD_PATH.include?(lib) …n”]]}}</p>
+
+</div>
+
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+
